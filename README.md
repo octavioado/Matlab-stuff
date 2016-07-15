@@ -12,4 +12,7 @@ wrco- The cross-correlation method evaluates the cross-correlation function betw
 aret-The area ratio method proposed  assumes that a control loop with a valve having stiction generates a sail shaped oscillations in the controlled signal. Alternatively, other oscillation sources produce the symmetric oscillation patterns. The method analyses the symmetry of each half period of the oscillation by dividing each half-period by its maxima and calculating the area of each division. Stiction detection occurs if the area of the figure before the peak is significantly larger than the area of the region after the peak in most oscillation half-periods. The method is designed for self-regulating loops.
 
 #Data
-
+SJeq- simulation data from a valve with an exponential response with stiction. the data set contains three variables op, mv and error
+op- controller output signal
+mv- manipulated variable signal (valve opening)
+error- process error signal (o deviation from the valve setpoint)
