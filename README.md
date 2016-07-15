@@ -1,4 +1,4 @@
-# Matlab-stuff
+# Valve stiction
 simple examples of diagnostic and modelling algorithm
 
 Here there would be simple algorithms examples
