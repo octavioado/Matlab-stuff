@@ -9,3 +9,7 @@ This repository contains algorithms used to detect valve static friction (sticti
 # Algorithms
 wrco- The cross-correlation method evaluates the cross-correlation function between the controller output and the controlled variable. The method detects stiction if the resulting cross-correlation function is even, since a symmetrical cross-correlation function is the result of non-stiction disturbances. This method can only be implemented on self-regulating loops.
 
+aret-The area ratio method proposed  assumes that a control loop with a valve having stiction generates a sail shaped oscillations in the controlled signal. Alternatively, other oscillation sources produce the symmetric oscillation patterns. The method analyses the symmetry of each half period of the oscillation by dividing each half-period by its maxima and calculating the area of each division. Stiction detection occurs if the area of the figure before the peak is significantly larger than the area of the region after the peak in most oscillation half-periods. The method is designed for self-regulating loops.
+
+#Data
+
