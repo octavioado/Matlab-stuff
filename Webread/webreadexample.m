@@ -5,7 +5,7 @@
 % Planet OS api  data sourcing
 apiPlanet = 'http://api.planetos.com/v1/';
 apikey = '';
-dataset_id = 'noaa_ww3_global_1.25x1d';
+dataset_id = '';
 
 % getting metada
 urlPlanet = [apiPlanet 'datasets/' dataset_id];
