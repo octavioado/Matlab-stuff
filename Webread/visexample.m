@@ -2,7 +2,7 @@
 %
 %% Planet OS API
 apiPlanet = 'http://api.planetos.com/v1/';
-apikey = '4a80ef4d4b56437f835f1e820aaaa150';
+apikey = 'api key here';
 
 
 
