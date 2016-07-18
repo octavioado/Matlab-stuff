@@ -23,7 +23,7 @@ variablesl=test(:,2);
 
 % parsing the data
 datapre=struct2cell(rdata.entries)';
-rt=zeros(count,1);
+
 
 for i=1:count
     
