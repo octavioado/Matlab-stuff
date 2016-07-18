@@ -27,7 +27,7 @@ datapre=struct2cell(rdata.entries)';
 
 for i=1:count
     
- rr{i} = (struct2cell(datapre{i,3}))';
+ rr{i} = (struct2cell(datapre{i,3}));
  rt(i) =  datetime(datapre{i,2}.time, 'InputFormat', 'uuuu-MM-dd''T''HH:mm:ss','TimeZone','UTC');
 
 end
